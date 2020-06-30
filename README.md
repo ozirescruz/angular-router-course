@@ -105,35 +105,29 @@ This course covers the following topics:
     Understanding Router Hash location strategy
     Secondary router outlets and auxiliary routes
     The router module extra configuration options: enableTracing, scrollPositionRestoration, paramsInheritanceStrategy, etc.
-
-What Will You Learn In this Course?
-
-At the end of this course, you will feel comfortable setting up the Angular Router from scratch in an existing Angular application.
-
-You will know not only the essentials of the router together with all its most advanced features, but most importantly you will know exactly when to use each feature and why, and you will know numerous best practices that will help you to make the most out of the Angular Router.
-
-Have a look at the course free lessons below, and please enjoy the course!
-	Angular Router In Depth - Development Environment Setup 		local_parking	access_time10:55
-	What are Single Page Applications? Advantages and Downsides 			access_time14:31
-	What is the Angular Router? Essential Concepts (Routes, Paths and Outlets) 		local_parking	access_time09:10
-	Router Essential Concepts - The routerLink and routerLinkActive Directives 		local_parking	access_time07:00
-	How to setup Lazy Loading with the Angular Router 			access_time09:28
-	Angular Router Lazy Loaded Modules - Runtime Demo 		local_parking	access_time09:22
-	Angular Router Configuration - Best Practices 		local_parking	access_time10:21
-	Router Path Variables - Variable Target Routes with the Router Link Directive 		local_parking	access_time8:00
-	Angular Router Resolver Services - Building a Linkable Page in a SPA 		local_parking	access_time16:42
-	Angular Router Loading Indicator - Detecting Route Transitions and Lazy Loading 		local_parking	access_time09:55
-	Angular Router Child Routes - Step-by-Step Explanation 			access_time09:08
-	Angular Router Child Routes Demo - The Lessons List Component 		local_parking	access_time08:04
-	Master Detail Implementation - Routing from the Master to the Detail Component 		local_parking	access_time04:38
-	Implementing the Lesson Detail Resolver 		local_parking	access_time12:21
-	Programmatic Router Navigation with the Router Service 			access_time09:16
-	Understanding Route Snapshots vs Route Observables - When to Use Each and Why 		local_parking	access_time12:09
-	Router Guards Section Introduction - Authentication Store Review 		local_parking	access_time12:34
-	CanActivate Router Guards - Authentication Guards 			access_time11:30
-	Understanding CanActivateChild Guards 		local_parking	access_time07:01
-	CanDeactivate Router Guards - A Practical Example 		local_parking	access_time07:07
-	Angular Router CanLoad Guards 		local_parking	access_time09:37
-	What is an Angular Router Preloading Strategy? 		local_parking	access_time07:50
-	Angular Router Custom Preloading Strategy 			access_time07:17
-	Angular Router Query Parameters - Demo 		local_parking	access_time06:37
+    
+    
+Angular Router In Depth - Development Environment Setup
+What are Single Page Applications? Advantages and Downsides
+What is the Angular Router? Essential Concepts (Routes, Paths and Outlets)
+Router Essential Concepts - The routerLink and routerLinkActive Directives
+How to setup Lazy Loading with the Angular Router
+Angular Router Lazy Loaded Modules - Runtime Demo
+Angular Router Configuration - Best Practices
+Router Path Variables - Variable Target Routes with the Router Link Directive
+Angular Router Resolver Services - Building a Linkable Page in a SPA
+Angular Router Loading Indicator - Detecting Route Transitions and Lazy Loading
+Angular Router Child Routes - Step-by-Step Explanation
+Angular Router Child Routes Demo - The Lessons List Component
+Master Detail Implementation - Routing from the Master to the Detail Component
+Implementing the Lesson Detail Resolver
+Programmatic Router Navigation with the Router Service
+Understanding Route Snapshots vs Route Observables - When to Use Each and Why
+Router Guards Section Introduction - Authentication Store Review
+CanActivate Router Guards - Authentication Guards
+Understanding CanActivateChild Guards
+CanDeactivate Router Guards - A Practical Example
+Angular Router CanLoad Guards
+What is an Angular Router Preloading Strategy?
+Angular Router Custom Preloading Strategy
+Angular Router Query Parameters - Demo 
