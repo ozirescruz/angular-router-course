@@ -63,89 +63,71 @@ To run the frontend part of our code, we will use the Angular CLI:
 
 The application is visible at port 4200: [http://localhost:4200](http://localhost:4200)
 
+This Course in a Nutshell
 
+In this course, we are going to learn in detail the advantages of building a frontend UI as a single-page application, as opposed to a traditional multi-page application.
 
-# Important 
+Single-page applications (or SPAs) have been around for years now, and are today more popular than ever as a simplified way to build enterprise frontends or internet product dashboards.
 
-This repository has multiple branches, have a look at the beginning of each section to see the name of the branch.
+SPAs typically give the end-user a much better user experience, due to their better-perceived performance and responsiveness. In this course, we will learn how to use the Angular Router to turn our Angular application into a SPA.
 
-At certain points along the course, you will be asked to checkout other remote branches other than master. You can view all branches that you have available remotely using the following command:
+Course Overview
 
-    git branch -a
+We are going take as a starting point a small Angular application that does not have any routing yet. We are then going to learn how to configure the Angular Router from scratch. We will assume no prior Angular Router knowledge, as we explain everything from first principles.
 
-  The remote branches have their starting in origin, such as for example 1-navigation-and-containers.
+We will start by introducing the essential router concepts such as route configuration, paths, router outlets, and router navigation links. From these essential concepts, will build a much more advanced routing scenario.
 
-We can checkout the remote branch and start tracking it with a local branch that has the same name, by using the following command:
+We will learn how to build a master-detail with detail-to-detail navigation scenario, and we will use this example to introduce all the advanced routing concepts and powerful features that the Angular Router offers us.
 
-      git checkout -b section-1 origin/1-navigation-and-containers
+This will include lazy loading modules, data pre-fetching with Resolvers, protecting route access with Guards, custom pre-loading strategies, secondary outlets (auxiliary routes), and much more.
 
-It's also possible to download a ZIP file for a given branch,  using the branch dropdown on this page on the top left, and then selecting the Clone or Download / Download as ZIP button.
+Table of Contents
 
-# Other Courses
+This course covers the following topics:
 
-# Angular PWA Course
-
-If you are looking for the [Angular PWA Course](https://angular-university.io/course/angular-pwa-course), the repo with the full code can be found here:
-
-![Angular PWA Course - Build the future of the Web Today](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png)
-
-# Angular Security Masterclass
-
-If you are looking for the [Angular Security Masterclass](https://angular-university.io/course/angular-security-course), the repo with the full code can be found here:
-
-[Angular Security Masterclass](https://github.com/angular-university/angular-security-course).
-
-![Angular Security Masterclass](https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png)
-
-# Angular Advanced Library Laboratory Course
-
-If you are looking for the Angular Advanced Course, the repo with the full code can be found here:
-
-[Angular Advanced Library Laboratory Course: Build Your Own Library](https://angular-university.io/course/angular-advanced-course).
-
-![Angular Advanced Library Laboratory Course: Build Your Own Library](https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png)
-
-
-## RxJs and Reactive Patterns Angular Architecture Course
-
-If you are looking for the RxJs and Reactive Patterns Angular Architecture Course code, the repo with the full code can be found here:
-
-[RxJs and Reactive Patterns Angular Architecture Course](https://angular-university.io/course/reactive-angular-architecture-course)
-
-![RxJs and Reactive Patterns Angular Architecture Course](https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png)
-
-
-
-## Angular Ngrx Reactive Extensions Architecture Course
-
-If you are looking for the Angular Ngrx Reactive Extensions Architecture Course code, the repo with the full code can be found here:
-
-[Angular Ngrx Reactive Extensions Architecture Course](https://angular-university.io/course/angular2-ngrx)
-
-[Github repo for this course](https://github.com/angular-university/ngrx-course)
-
-![Angular Ngrx Course](https://angular-academy.s3.amazonaws.com/thumbnails/ngrx-angular.png)
-
-
-
-## Angular 2 and Firebase - Build a Web Application Course
-
-If you are looking for the Angular 2 and Firebase - Build a Web Application Course code, the repo with the full code can be found here:
-
-[Angular 2 and Firebase - Build a Web Application](https://angular-university.io/course/build-an-application-with-angular2)
-
-[Github repo for this course](https://github.com/angular-university/angular-firebase-app)
-
-![Angular firebase course](https://angular-academy.s3.amazonaws.com/thumbnails/angular_app-firebase-small.jpg)
-
-
-## Complete Typescript 2 Course - Build A REST API
-
-If you are looking for the Complete Typescript 2 Course - Build a REST API, the repo with the full code can be found here:
-
-[https://angular-university.io/course/typescript-2-tutorial](https://github.com/angular-university/complete-typescript-course)
-
-[Github repo for this course](https://github.com/angular-university/complete-typescript-course)
-
-![Complete Typescript Course](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
-
+    What is a single page application?
+    Best practices for router configuration: home route, page not found route, etc.
+    Essential Router configurations concepts: paths, components, and outlets
+    Essential Router navigation concepts; the routerLink and routerLinkActive directives
+    Relative vs Absolute routing best practices
+    Understanding Path matching and router configuration order
+    Router Path and Query parameters
+    Router redirects
+    Deep linking with the Angular router: master-detail with detail-to-detail navigation scenario
+    Understanding router snapshots vs router observables
+    Lazy loaded routes
+    Route data pre-loading with Resolvers
+    Router module pre-loading strategies, building a custom preloading strategy
+    Router Guards - CanActivate and CanActivateChild Authentication Guards
+    Preventing route exits with CanDeactivate guards
+    Checking if a lazy-loaded module can be loaded with CanLoad
+    Router Loading Indicator
+    Understanding Router Hash location strategy
+    Secondary router outlets and auxiliary routes
+    The router module extra configuration options: enableTracing, scrollPositionRestoration, paramsInheritanceStrategy, etc.
+    
+    
+Angular Router In Depth - Development Environment Setup
+What are Single Page Applications? Advantages and Downsides
+What is the Angular Router? Essential Concepts (Routes, Paths and Outlets)
+Router Essential Concepts - The routerLink and routerLinkActive Directives
+How to setup Lazy Loading with the Angular Router
+Angular Router Lazy Loaded Modules - Runtime Demo
+Angular Router Configuration - Best Practices
+Router Path Variables - Variable Target Routes with the Router Link Directive
+Angular Router Resolver Services - Building a Linkable Page in a SPA
+Angular Router Loading Indicator - Detecting Route Transitions and Lazy Loading
+Angular Router Child Routes - Step-by-Step Explanation
+Angular Router Child Routes Demo - The Lessons List Component
+Master Detail Implementation - Routing from the Master to the Detail Component
+Implementing the Lesson Detail Resolver
+Programmatic Router Navigation with the Router Service
+Understanding Route Snapshots vs Route Observables - When to Use Each and Why
+Router Guards Section Introduction - Authentication Store Review
+CanActivate Router Guards - Authentication Guards
+Understanding CanActivateChild Guards
+CanDeactivate Router Guards - A Practical Example
+Angular Router CanLoad Guards
+What is an Angular Router Preloading Strategy?
+Angular Router Custom Preloading Strategy
+Angular Router Query Parameters - Demo 
